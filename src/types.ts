@@ -6,3 +6,12 @@ export interface TravelLocation {
   lng: number;
   description?: string;
 }
+
+export type Project = {
+  id: string;
+  title: string;
+  description: string;
+  tasks: string[];
+  achievements: string[];
+  techStack: string[];
+};
